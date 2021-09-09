@@ -4,17 +4,18 @@ version: 0.9.0
 homepage: https://github.com/crimercbddev/flutter_advanced_networkimage
 
 environment:
-  sdk: ">=2.10.0 <3.0.0"
+  sdk: ">=2.10.3 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  async: ^2.6.1
   http: ^0.13.3
   path_provider: ^2.0.3
   path: ^1.8.0
+  pool: ^1.5.0
   flutter_svg: ^0.22.0
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  test: "^1.9.0"
+  # flutter_test:
+  #   sdk: flutter
